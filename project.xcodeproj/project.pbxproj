@@ -12,6 +12,8 @@
 		9BE0AD8421274EDB00631615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE0AD8221274EDB00631615 /* Main.storyboard */; };
 		9BE0AD8621274EDC00631615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE0AD8521274EDC00631615 /* Assets.xcassets */; };
 		9BE0AD8921274EDC00631615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE0AD8721274EDC00631615 /* LaunchScreen.storyboard */; };
+		9BE0AD91212759B800631615 /* AddPayrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE0AD90212759B800631615 /* AddPayrollViewController.swift */; };
+		9BE0AD9521275B3C00631615 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE0AD9421275B3C00631615 /* HomeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9BE0AD8521274EDC00631615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BE0AD8821274EDC00631615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BE0AD8A21274EDC00631615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE0AD90212759B800631615 /* AddPayrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPayrollViewController.swift; sourceTree = "<group>"; };
+		9BE0AD9421275B3C00631615 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				9BE0AD8521274EDC00631615 /* Assets.xcassets */,
 				9BE0AD8721274EDC00631615 /* LaunchScreen.storyboard */,
 				9BE0AD8A21274EDC00631615 /* Info.plist */,
+				9BE0AD90212759B800631615 /* AddPayrollViewController.swift */,
+				9BE0AD9421275B3C00631615 /* HomeTableViewController.swift */,
 			);
 			path = project;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BE0AD9521275B3C00631615 /* HomeTableViewController.swift in Sources */,
 				9BE0AD8121274EDB00631615 /* ViewController.swift in Sources */,
 				9BE0AD7F21274EDB00631615 /* AppDelegate.swift in Sources */,
+				9BE0AD91212759B800631615 /* AddPayrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
